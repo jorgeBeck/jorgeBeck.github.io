@@ -61,7 +61,7 @@
 	var $logo_carousel = $('.logo-carousel');
 	if ($logo_carousel.length > 0 ) {
 		$logo_carousel.owlCarousel({
-			items: 5, loop: true, margin: 30, responsive:{0:{ items:2 }, 379:{ items:3 }, 720:{ items:4 }, 1280:{ items:6 } }
+			items: 4, loop: true, margin: 30, responsive:{0:{ items:2 }, 379:{ items:3 }, 720:{ items:4 }, 1280:{ items:5 } }
 		});
 	}
 	// Parallax
@@ -185,8 +185,17 @@
 	if ($mapholder.length > 0) {
 		var map = new GMaps({
 			div: '#gmap',
-			lat: -12.043333,
-			lng: -77.028333
+			lat: 25.709195,
+			lng: -100.321221
+		});
+		map.addMarker({
+			lat: 25.709195,
+			lng: -100.321221,
+			title: 'Abaspa',
+			//icon :  'image/favicon.png',
+			click: function(e) {
+				window.open('https://goo.gl/maps/6EofVjpFY4G2');
+			}
 		});
 		$mapholder.on('click', function () {
 			$(this).children().css("pointer-events", "auto");

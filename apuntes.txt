@@ -1,0 +1,130 @@
+categoría 1
+	sub categoría 1
+	sub categoría 2
+	sub categoría 3
+categoría 2
+	sub categoría 1
+	sub categoría 2
+	sub categoría 3
+
+Pedir imagen y descripción de cada categoría y sub-categoría.
+
+Pedir los catálogos bien, en PDF
+
+Hablar con Pamela y hacer chat de grupo con Adrián
+
+Preguntar opción de descargar-ver catálogo
+
+-------------------------------------------------------------
+
+Categorías y sub categorías
+
+PAPELES HIGIÉNICOS BLANCOS
+	Papel higiénico kleenex
+	Papel higiénico tork
+	Papel higiénico universal
+
+TOALLAS EN ROLLO, INTERDOBLADAS Y PAÑUELOS FACIALES
+	*Cotiza impresiones personalizadas en servilletas
+	Pañuelos faciales
+	Servilletas de lujo
+	Servilletas de comida
+	Toallas en rollo
+	Toallas interdobladas
+
+JABONES LIQUIDOS EN CARTUCHO Y A GRANEL, EN BARRA Y DETERGENTES
+	Detergentes
+	Jabón en barra
+
+QUÍMICOS PARA LA LIMPIEZA EN GENERAL
+	Ácidos
+	Cloro
+	Fabuloso y aromas
+	Geles antibacteriales
+	Geles antibacteriales
+	Limpiavidrios
+	Sarricida
+
+AROMATIZANTES Y DESINFECTANTES
+	Dosificador de aromatizante
+	Glade aerosol
+	Insecticidas
+	Repuestos
+
+JARCERIA
+	Armazones y repuestos de trapeadores
+	Cepillos
+	Escobas
+	Escobillones
+	Fibras con esponja scotch
+	Fibras de alambre
+	Fibras scotch
+	Franelas
+	Guantes varios
+	Jaladores
+	Pastillas sanitarias y repuestos
+	Recogedores
+	Tapabocas
+
+BOLSA PARA BASURA
+	Baja densidad
+	Alta densidad
+
+ABARROTES VARIOS
+	Cremas para café
+	Cafés varios
+	Endulzantes
+	Azúcares
+	Tés varios
+	Sal para alimentos
+	Vasos cónicos
+
+DESECHABLES VARIOS
+	Cofias, cubre bocas, gorros y mayas
+	Mandiles plásticos
+	Vitafilm, papel encerado y aluminios grado alimenticio
+	Palillos de dientes
+	Alcohol sólido
+
+DART - VASOS TERMICOS Y TAPAS
+	Tapas térmicas varios
+	Vasos térmicos varios
+
+TAZONES TERMICOS Y TAPAS
+	Tapas térmicas varios
+	Tazones térmicos varios
+
+REYMA
+	Vasos plásticos varios
+	Molde gelatinero
+
+CHAROLAS TERMICAS
+	Charolas térmicas varios
+
+CONTENEDORES TERMICOS
+	Contenedores térmicos varios
+
+PLATOS TERMICOS DESECHABLES
+	Platos térmicos varios
+
+SOLO CUP - VASOS DE PLÁSTICO
+	Vaso cristal plástico varios
+
+UTENSILIOS
+	Cubiertos plásticos varios
+
+TAZONES PLASTICOS Y TAPAS
+	Tapas plasticas varios
+	Tazones plasticos varios
+
+POPOTES
+	Popotes flexibles varios
+	Popotes lisos varios
+
+VASO PARA CAFÉ Y TAPAS
+	Vasos para café varios
+	Tapas para café varios
+
+ENVASES Y TAPA
+	Envases traslúcidos varios
+	Tapas traslúcidas varios

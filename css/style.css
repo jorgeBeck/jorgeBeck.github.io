@@ -963,8 +963,8 @@ h1 + .row-quotes, h2 + .row-quotes { margin-top: 45px; }
 .row-quotes > [class*="col-"]:nth-child(even) { padding-left: 30px; }
 
 /* ========================================================================== 10.0 Client Logo ========================================================================== */
-.logo-item { background: #fff; -ms-border-radius: 6px; border-radius: 6px; border: 1px solid rgba(0, 0, 0, 0.04); text-align: center; padding: 10px; }
-.logo-item img { border: 0 none; border-radius: border-radius(); width: 100%; max-width: 190px; }
+.logo-item { background: #fff; -ms-border-radius: 6px; border-radius: 6px; border: 1px solid rgba(0, 0, 0, 0.04); text-align: center; padding: 10px;  max-width: 100px;}
+.logo-item img { border: 0 none; border-radius: border-radius(); width: 100%; max-width: 100px; }
 
 .style-v2 .logo-item { background: none; border-color: transparent; }
 
@@ -1956,3 +1956,8 @@ h3.heading-section + .lead, h3.heading-lead + .lead { margin-top: -5px; }
 .demo-sample-icon .icon-box { margin-right: 10px; }
 
 .demo-sample-icon hr { margin-top: 25px; margin-bottom: 25px; }
+
+ul.catalog-items li {
+  margin: 4px;
+  border-radius: 10px;
+}
