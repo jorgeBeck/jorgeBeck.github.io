@@ -334,4 +334,23 @@
 		});
 	  }
 	}
+
+	$(document).on('submit', '#contacto', function(event){
+		event.preventDefault();
+		$.ajax({
+			url: 'php/sendMail.php',
+			type: 'post',
+			dataType: 'json',
+			data: $(this).serialize(),
+			success: function(data){
+				alert(data);
+				$('#contacto')[0].reset();
+			}
+		})
+		.fail(function(error) {
+			console.log(error);
+			alert('No se pudo enviar el correo de contacto');
+		})
+	});
+
 })(jQuery);
