@@ -16,17 +16,27 @@
 	// Sticky
 	var $is_sticky = $('.is-sticky');
 	if ($is_sticky.length > 0 ) {
+		var navSimulated = document.getElementById('navbars-simulated-position');
+		var scrolledDown = function (_scrolledDown) {
+			if (_scrolledDown) {
+				$is_sticky.addClass('has-fixed');
+				navSimulated.style.minHeight = '80px';
+			} else {
+				$is_sticky.removeClass('has-fixed');
+				navSimulated.style.minHeight = '0px';
+			}
+		}
 		var $navm = $('#mainnav').offset();
 		$win.scroll(function(){
 			var $scroll = $win.scrollTop();
 			if ($win.width() > 991) {
 				if($scroll > $navm.top+4 ){
-				  if(!$is_sticky.hasClass('has-fixed')) {$is_sticky.addClass('has-fixed');}
+				  if(!$is_sticky.hasClass('has-fixed')) {scrolledDown(true)}
 				} else {
-				  if($is_sticky.hasClass('has-fixed')) {$is_sticky.removeClass('has-fixed');}
+				  if($is_sticky.hasClass('has-fixed')) {scrolledDown(false)}
 				}
 			} else {
-				if($is_sticky.hasClass('has-fixed')) {$is_sticky.removeClass('has-fixed');}
+				if($is_sticky.hasClass('has-fixed')) {scrolledDown(false)}
 			}
 		});
 	}
